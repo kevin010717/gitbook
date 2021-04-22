@@ -9,5 +9,5 @@ rd _book /s /Q
 @echo on
 call git add .
 call git commit -m "gitbook"
-call git push origin master
+call git push origin gitbook
 pause
