@@ -1,4 +1,5 @@
 @echo off
+call gitbook init
 call gitbook epub ./ ./mybook.epub
 call gitbook pdf ./ ./mybook.pdf
 call gitbook mobi ./ ./mybook.mobi
