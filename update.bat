@@ -10,5 +10,6 @@ rd _book /s /Q
 @echo on
 call git add .
 call git commit -m "gitbook"
+call git config --global http.sslVerify "false"
 call git push origin gitbook
 pause
