@@ -1,6 +1,6 @@
 @echo off
 call gitbook init
-call gitbook epub ./ ./王医生的故事.epub
+call gitbook epub ./ ./wangyishengdegushi.epub
 call gitbook pdf ./ ./王医生的故事.pdf
 call gitbook mobi ./ ./王医生的故事.mobi
 call gitbook build
