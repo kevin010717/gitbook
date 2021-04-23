@@ -1,8 +1,8 @@
 @echo off
 call gitbook init
-call gitbook epub ./ ./mybook.epub
-call gitbook pdf ./ ./mybook.pdf
-call gitbook mobi ./ ./mybook.mobi
+call gitbook epub ./ ./王医生的故事.epub
+call gitbook pdf ./ ./王医生的故事.pdf
+call gitbook mobi ./ ./王医生的故事.mobi
 call gitbook build
 xcopy _book\*.* .\ /f /s /y
 del _book\*.* /f /s /y
