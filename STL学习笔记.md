@@ -588,11 +588,7 @@
 | Pred = equal_to<Key> | 要知道，unordered_map 容器中存储的各个键值对的键是不能相等的，而判断是否相等的规则，就由此参数指定。默认情况下，使用 STL 标准库中提供的 equal_to<key> 规则，该规则仅支持可直接用 == 运算符做比较的数据类型。 |
 
 - ```c++
-  unordered_map<string, string> umap;
-  unordered_map<string, string> umap{{"key1","string1"},{"key2","string2"}};
-  unordered_map<string, string> umap2(umap);
-  unordered_map<string, string> umap2(retUmap());//移动构造
-  unordered_map<string, string> umap2(++umap.begin(),umap.end());  
+  
   ```
 
 <img src="STL学习笔记.assets/image-20211016111949728.png" alt="image-20211016111949728" style="zoom:50%;" />
