@@ -9,6 +9,7 @@ call gitbook mobi
 call gitbook build
 # xcopy _book\*.* .\ /f /s /y
 # del _book\*.* /f /s /y
+del .\book.*
 # rd _book /s /Q
 @echo on
 call git add .
